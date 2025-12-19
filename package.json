@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-py-react",
+  "version": "1.0.0",
+  "description": "practice code",
+  "main": "index.js",
+
+
+  "scripts": {
+  "frontend": "cd frontend && npm run dev",
+  "backend": "cd backend && start-backend.bat",
+  "bot": "concurrently \"npm run frontend\" \"npm run backend\""
+},
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markgian06/chatbot-py-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markgian06/chatbot-py-react/issues"
+  },
+  "homepage": "https://github.com/Markgian06/chatbot-py-react#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
